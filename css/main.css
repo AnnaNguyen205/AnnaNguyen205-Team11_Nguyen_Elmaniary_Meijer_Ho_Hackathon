@@ -63,56 +63,48 @@ textarea {
 
 .montserrat-thin {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
 
 .montserrat-xlight {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
 }
 
 .montserrat-light {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
 .montserrat-book {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .montserrat-medium {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 
 .montserrat-bold {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
 .montserrat-black {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
 }
 
 .montserrat-ultra {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
@@ -362,7 +354,7 @@ h4 {
   margin: 20px 0;
 }
 
-#project-gallery-section h1 {
+#project-gallery-section h2 {
   margin: 20px 0;
 }
 
