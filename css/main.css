@@ -315,10 +315,15 @@ ul li:hover {
 .black {
   color: #000;
 }
+
 .event-info-box {
   background-color: #b3272d;
   margin: 10px 0;
   padding: 10px;
+}
+
+.event-info-box:hover {
+  background-color: #e2231a;
 }
 
 .event-details-img {
@@ -490,6 +495,7 @@ ul li:hover {
 .more-button:hover {
   transform: scale(1.1);
   transition: 0.3s;
+  background-color: #e2231a;
 }
 
 /* ---11 . Footer--- */
@@ -583,6 +589,7 @@ footer p {
 
 /* 13. ---Desktop Grid--- */
 @media screen and (min-width: 1200px) {
+
   /* ---1. Hero--- */
   #home-hero-heading h3:first-child {
     font-size: 40px;
