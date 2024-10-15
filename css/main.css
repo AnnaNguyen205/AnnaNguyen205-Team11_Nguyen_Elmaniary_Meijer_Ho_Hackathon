@@ -412,8 +412,11 @@ h4 {
 #portfolio-section {
   padding: 2rem;
   background-color: #f4f4f4;
-  text-align: center;
-  margin: 20px 0;
+  margin: 50px 0;
+}
+
+#portfolio-section h2 {
+  margin-left: 7%;
 }
 
 .portfolio-box {
@@ -427,44 +430,34 @@ h4 {
 
 .portfolio-box:hover {
   transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  background-color: #474749;
 }
 
-.portfolio-box h4 {
-  background-color: #e2231a;
+.portfolio-box h3 {
   color: #fff;
-  padding: 0.75rem;
+  padding-top: 1rem;
   margin: 0;
   text-align: center;
-}
-
-.portfolio-box p {
-  color: #fff;
-  text-align: center;
   font-size: small;
-  font-weight: lighter;
 }
 
 .portfolio-box a {
   display: block;
-  padding: 0.75rem;
+  padding: 0.5rem 0 1rem;
   color: #fff;
   text-align: center;
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: small;
   text-decoration: none;
   border-radius: 0 0 10px 10px;
   transition: background-color 0.3s;
 }
 
-.portfolio-box a:hover {
-  background-color: #b3272d;
-  color: #333;
-}
-
 /* ---10. About Section--- */
 
 #about-section {
-  margin: 20px 0;
+  margin: 50px 0;
   background: linear-gradient(180deg, #e2231a 28%, #fff 0%);
 }
 
@@ -563,6 +556,18 @@ footer p {
 
   .gallery img {
     border-radius: 25px;
+  }
+
+  /* ---8. Testimonial Section--- */
+
+  #testimonial-section {
+    margin: 70px 0;
+  }
+
+  /* ---9. Portfolio Section--- */
+
+  #portfolio-section {
+    margin: 70px 0;
   }
 
   /* ---10. About Section--- */
