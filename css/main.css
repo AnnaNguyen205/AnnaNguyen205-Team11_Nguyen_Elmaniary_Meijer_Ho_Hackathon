@@ -342,9 +342,13 @@ ul li:hover {
 }
 
 .finalist h3,
-h4 {
+.finalist h4 {
   color: #646469;
   text-align: center;
+}
+
+.finalist h4 {
+  font-size: small;
 }
 
 /* ---7. Student Project Gallery--- */
